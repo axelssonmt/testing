@@ -6,17 +6,17 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Temperature in Celsius : ");
+            Console.WriteLine(StringHelper.startText);
             int celsius = int.Parse(Console.ReadLine());
             int farenvalue = Faren(celsius);
-            Console.WriteLine("Temperature in Fahrenheit is : " + farenvalue);
+            Console.WriteLine(StringHelper.tempIsFar + farenvalue);
             if (farenvalue >= 64)
             {
-                RunForest("Running running!");
+                RunForest(StringHelper.runRun);
             }
             else
             {
-                StayHomeForest("To cold, stay home");
+                StayHomeForest(StringHelper.toCold);
             }
             Console.ReadLine();
         }
@@ -47,6 +47,6 @@ namespace ForTest
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
         }
-
     }
+    
 }
