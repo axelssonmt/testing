@@ -6,12 +6,18 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            int celsius, faren;
             Console.WriteLine("Enter the Temperature in Celsius : ");
-            celsius = int.Parse(Console.ReadLine());
-            faren = (celsius * 9) / 5 + 32;
-            Console.WriteLine("Temperature in Fahrenheit is : " + faren);
+            int celsius = int.Parse(Console.ReadLine());
+            int farenvalue = faren(celsius);
+            Console.WriteLine("Temperature in Fahrenheit is : " + farenvalue);
             Console.ReadLine();
+        }
+
+        public static int faren (int celsius)
+        {
+            int faren;
+            faren = (celsius * 9) / 5 + 32;
+            return faren;
         }
     }
 }
