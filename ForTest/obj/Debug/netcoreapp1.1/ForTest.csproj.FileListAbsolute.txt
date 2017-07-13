@@ -1,0 +1,8 @@
+C:\SourceCode\git\testing\ForTest\bin\Debug\netcoreapp1.1\ForTest.deps.json
+C:\SourceCode\git\testing\ForTest\bin\Debug\netcoreapp1.1\ForTest.runtimeconfig.json
+C:\SourceCode\git\testing\ForTest\bin\Debug\netcoreapp1.1\ForTest.runtimeconfig.dev.json
+C:\SourceCode\git\testing\ForTest\bin\Debug\netcoreapp1.1\ForTest.dll
+C:\SourceCode\git\testing\ForTest\bin\Debug\netcoreapp1.1\ForTest.pdb
+C:\SourceCode\git\testing\ForTest\obj\Debug\netcoreapp1.1\ForTest.AssemblyInfo.cs
+C:\SourceCode\git\testing\ForTest\obj\Debug\netcoreapp1.1\ForTest.dll
+C:\SourceCode\git\testing\ForTest\obj\Debug\netcoreapp1.1\ForTest.pdb
