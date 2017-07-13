@@ -6,10 +6,12 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("in b1 release");
-            Console.WriteLine("in b2 release");
-            Console.WriteLine("after commit in in b2 release files was identical so ill  make third one.");
+            int celsius, faren;
+            Console.WriteLine("Enter the Temperature in Celsius : ");
+            celsius = int.Parse(Console.ReadLine());
+            faren = (celsius * 9) / 5 + 32;
+            Console.WriteLine("Temperature in Fahrenheit is : " + faren);
+            Console.ReadLine();
         }
     }
 }
