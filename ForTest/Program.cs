@@ -7,6 +7,7 @@ namespace ForTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.Write("in b1 release");
         }
     }
 }
