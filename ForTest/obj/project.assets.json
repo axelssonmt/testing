@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceCode\\git\\ForTest\\ForTest\\ForTest.csproj",
+      "projectUniqueName": "C:\\SourceCode\\git\\testing\\ForTest\\ForTest.csproj",
       "projectName": "ForTest",
-      "projectPath": "C:\\SourceCode\\git\\ForTest\\ForTest\\ForTest.csproj",
-      "outputPath": "C:\\SourceCode\\git\\ForTest\\ForTest\\obj\\",
+      "projectPath": "C:\\SourceCode\\git\\testing\\ForTest\\ForTest.csproj",
+      "outputPath": "C:\\SourceCode\\git\\testing\\ForTest\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
