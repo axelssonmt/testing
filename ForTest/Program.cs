@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace ForTest
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.WriteLine(StringHelper.convertFromCelsiusToFahrenheitPress1);
@@ -26,7 +28,14 @@ namespace ForTest
                 double celsiusValue = Converters.CelsiusConverter(fahrenheitValue);
                 Console.WriteLine(StringHelper.temperatureInCelsiusIs + celsiusValue);
                 Console.ReadLine();
-            }    
+            }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.DarkRed;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine(StringHelper.NotAValidEntry);
+                Console.ReadLine();
+            }
         }
     }
 }

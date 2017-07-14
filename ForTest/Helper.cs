@@ -18,5 +18,6 @@ namespace ForTest
         public static string temperatureInFahrenheitIs = "Temperature in Fahrenheit is : ";
         public static string enterTheTemperatureInFahrenheit = "Enter the Temperature in Fahrenheit : ";
         public static string temperatureInCelsiusIs = "Temperature in Celsius is : ";
+        public static string NotAValidEntry = "Not a valid entry";
     }
 }
