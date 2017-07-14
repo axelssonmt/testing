@@ -6,18 +6,27 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Temperature in Celsius : ");
-            int celsius = int.Parse(Console.ReadLine());
-            int farenvalue = faren(celsius);
-            Console.WriteLine("Temperature in Fahrenheit is : " + farenvalue);
-            Console.ReadLine();
-        }
+            Console.WriteLine(StringHelper.convertFromCelsiusToFahrenheitPress1);
+            Console.WriteLine(StringHelper.convertFromFahrenheitToCelsiusPress2);
+            int input = int.Parse(Console.ReadLine());
 
-        public static int faren (int celsius)
-        {
-            int faren;
-            faren = (celsius * 9) / 5 + 32;
-            return faren;
+            if(input == 1)
+            {
+                Console.WriteLine(StringHelper.enterTheTemperatureInCelsius);
+                double celsiusValue = int.Parse(Console.ReadLine());
+                double fahrenheitValue = Converters.FahrenheitConverter(celsiusValue);
+                Console.WriteLine(StringHelper.temperatureInFahrenheitIs + fahrenheitValue);
+                Console.ReadLine();
+
+            }
+            else if(input == 2)
+            {
+                Console.WriteLine(StringHelper.enterTheTemperatureInFahrenheit);
+                double fahrenheitValue = int.Parse(Console.ReadLine());
+                double celsiusValue = Converters.CelsiusConverter(fahrenheitValue);
+                Console.WriteLine(StringHelper.temperatureInCelsiusIs + celsiusValue);
+                Console.ReadLine();
+            }    
         }
     }
 }
