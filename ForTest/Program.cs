@@ -6,6 +6,7 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
+            // 1.0
             Console.WriteLine("Enter the Temperature in Celsius : ");
             int celsius = int.Parse(Console.ReadLine());
             int farenvalue = faren(celsius);
@@ -13,7 +14,7 @@ namespace ForTest
             Console.ReadLine();
         }
 
-        public static int faren (int celsius)
+        public static int faren(int celsius)
         {
             int faren;
             faren = (celsius * 9) / 5 + 32;
