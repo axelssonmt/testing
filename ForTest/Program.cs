@@ -8,7 +8,7 @@ namespace ForTest
         
         static void Main(string[] args)
         {
-            // 1.3
+            // 1.4
             Console.WriteLine(StringHelper.convertFromCelsiusToFahrenheitPress1);
             Console.WriteLine(StringHelper.convertFromFahrenheitToCelsiusPress2);
             var line = Console.ReadLine();
