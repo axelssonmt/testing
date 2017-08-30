@@ -6,7 +6,7 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            // 1.0
+            // 1.2
             Console.WriteLine("Enter the Temperature in Celsius : ");
             int celsius = int.Parse(Console.ReadLine());
             int farenvalue = faren(celsius);
